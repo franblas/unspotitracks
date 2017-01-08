@@ -1,0 +1,21 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Unspotitracks</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/png" href="https://www.slatecube.com/images/play-btn.png" />
+</head>
+
+<body>
+  <div id="input-top">
+    <input type="text" id='search-query' placeholder="electro, metal, pop, chill ..." onkeyup="if (event.keyCode == 13) $('#submitQuery').click()" autofocus>
+    <input id="submitQuery" onClick="submitQuery()">
+  </div>
+
+    <div id="main-container">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
