@@ -35,4 +35,4 @@ Please enter your spotify clientSecret
 ```
 python server.py
 ```
-Go to http://localhost:8010 and enjoy :)
+Go to [http://localhost:8010](http://localhost:8010) and enjoy :)
